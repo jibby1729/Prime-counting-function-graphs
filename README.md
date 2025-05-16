@@ -1,0 +1,3 @@
+The function field PNT (better known as the "prime polynomial theorem") states that the # of prime polynomials of degree $N$ in $F_q[t]$ is $$\frac{1}{N} \sum_{d | N} q^{N/d} \mu(d)$$ where $\mu$ is the mobius function. Given the analogy between 
+function fields and number fields this might lead one to expect that the error term in the PNT would be $\frac{\sqrt{x}}{\log(x)}$, however this ends up not being true as the plots here show. In fact, even under RH the best we can get is
+$\sqrt{x}\log(x)$, and so the hope that perhaps the true error term would be what the analogue suggests means we'd be able to chop off a $\log^2$ factor from what RH suggests. Seems too good to be true, is too good to be true. 
